@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+	
+console.log("DOM content loaded.");
 	const movies = [
 		"It's A Wonderful Life",
 		"Catch Me If You Can"
