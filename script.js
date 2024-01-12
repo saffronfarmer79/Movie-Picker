@@ -14,6 +14,8 @@ console.log("DOM content loaded.");
 	const resultElement = document.getElementbyId('result');
 
 	pickButton.addEventListener('click', function () {
+		console.log("Button clicked.");
+		
 		const randomIndex = Math.floor(Math.random() * movies.length);
 		const randomMovie = movies[randomIndex];
 		resultElement.textContent = 'You should watch: ${randomMovie}';
